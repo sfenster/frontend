@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python project/app.py
+python3 -m flask --app project/app.py:app run
